@@ -113,8 +113,8 @@ density_estimate <- kde(x = cbind(longitude, latitude))
 plot(density_estimate, display = 'persp', ticktype = 'detailed', phi = 25, theta = 10)
 
 # Reference: https://www.littlemissdata.com/blog/maps
-# map API: AIzaSyBIataTV-gluzSZTnpMSRnlohlwQaNkDDM
-ggmap::register_google(key = "AIzaSyBIataTV-gluzSZTnpMSRnlohlwQaNkDDM")
+# map API: ************************************
+ggmap::register_google(key = "************************************")
 ca_map <- ggmap(get_googlemap(center = c(lon = -119.4179, lat = 36.7783),
                               zoom = 6, scale = 2,
                               maptype ='terrain',

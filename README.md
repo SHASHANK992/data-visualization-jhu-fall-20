@@ -7,6 +7,6 @@ This repo contains course work completed for the Data Visualization course at JH
   - Within each folder is another problem_set(#) folder that contains the assignments per module.
   - The final assignment can be seen as Yu-PS(#).pdf and the code is ps(#).R.
   
-- project: Contains the data, R code of the final project (PowerPoint presentation too large for GitHub).
-  - The final project presentation can be viewed via [YouTube](https://www.youtube.com/watch?v=FWyuVph7NqM)
+- project_(#): Contains the submitted projects for #'s 1-5
 
+- final_project: Contains submitted final project

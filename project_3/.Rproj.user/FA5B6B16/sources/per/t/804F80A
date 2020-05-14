@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583199077021.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "152064124",
+    "id" : "804F80A",
+    "lastKnownWriteTime" : 1583639883,
+    "last_content_update" : 1583639883050,
+    "path" : "C:/Users/qizhe/Desktop/JHU/data_vis/project_3/proj3.R",
+    "project_path" : "proj3.R",
+    "properties" : {
+        "cursorPosition" : "208,0",
+        "scrollLine" : "186",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

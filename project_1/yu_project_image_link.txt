@@ -1,0 +1,9 @@
+Website with article that links to slides:
+https://www.wired.com/2011/09/fbi-islam-qaida-irrelevant/
+
+Link directly to slides:
+https://www.wired.com/images_blogs/dangerroom/2011/09/fbi_militancy_considerations.pdf
+
+(Note, since it's a PowerPoint presentation the zip file includes 5 images used from the presentation.
+This format was given an okay by the professor within a discussion thread. If only one image can be used,
+it'd make the most sense to use yu_project01_image5.jpg)

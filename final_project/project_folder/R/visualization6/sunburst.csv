@@ -1,0 +1,316 @@
+Province/State,Country/Region,Confirmed,ISO,Continent
+,Afghanistan,4687.0,AFG,Asia
+,Albania,872.0,ALB,Europe
+,Algeria,5891.0,DZA,Africa
+,Andorra,755.0,AND,Europe
+,Angola,45.0,AGO,Africa
+,Antigua and Barbuda,25.0,ATG,North America
+,Argentina,6278.0,ARG,South America
+,Armenia,3392.0,ARM,Asia
+,Austria,15882.0,AUT,Europe
+,Azerbaijan,2589.0,AZE,Asia
+,Bahamas,93.0,BHS,North America
+,Bahrain,5236.0,BHR,Asia
+,Bangladesh,15691.0,BGD,Asia
+,Barbados,84.0,BRB,North America
+,Belarus,23906.0,BLR,Europe
+,Belgium,53449.0,BEL,Europe
+,Belize,18.0,BLZ,North America
+,Benin,319.0,BEN,Africa
+,Bhutan,11.0,BTN,Asia
+,Bolivia,2831.0,BOL,South America
+,Bosnia and Herzegovina,2141.0,BIH,Europe
+,Botswana,24.0,BWA,Africa
+,Brazil,169594.0,BRA,South America
+,Brunei,141.0,BRN,Asia
+,Bulgaria,1990.0,BGR,Europe
+,Burkina Faso,760.0,BFA,Africa
+,Myanmar,180.0,MMR,Asia
+,Burundi,15.0,BDI,Africa
+,Cabo Verde,260.0,CPV,Africa
+,Cambodia,122.0,KHM,Asia
+,Cameroon,2689.0,CMR,Africa
+,Central African Republic,143.0,CAF,Africa
+,Chad,322.0,TCD,Africa
+,Chile,30063.0,CHL,South America
+,Colombia,11613.0,COL,South America
+,Comoros,11.0,COM,Africa
+,Congo,1024.0,COD,Africa
+,Costa Rica,801.0,CRI,North America
+,Croatia,2196.0,HRV,Europe
+,Cuba,1783.0,CUB,North America
+,Cyprus,901.0,CYP,Asia
+,Czech Republic,8176.0,CZE,Europe
+,Denmark,10513.0,DNK,Europe
+,Djibouti,1227.0,DJI,Africa
+,Dominica,16.0,DMA,North America
+,Dominican Republic,10634.0,DOM,North America
+,Ecuador,29509.0,ECU,South America
+,Egypt,9746.0,EGY,Africa
+,El Salvador,958.0,SLV,North America
+,Equatorial Guinea,439.0,GNQ,Africa
+,Eritrea,39.0,ERI,Africa
+,Estonia,1741.0,EST,Europe
+,Eswatini,175.0,SWZ,Africa
+,Ethiopia,250.0,ETH,Africa
+,Fiji,18.0,FJI,Australia
+,Finland,5984.0,FIN,Europe
+,France,175479.0,FRA,Europe
+,Gabon,802.0,GAB,Africa
+,Gambia,22.0,GMB,Africa
+,Georgia,638.0,GEO,Asia
+,Germany,172576.0,DEU,Europe
+,Ghana,4700.0,GHA,Africa
+,Greece,2726.0,GRC,Europe
+,Grenada,21.0,GRD,North America
+,Guatemala,1114.0,GTM,North America
+,Guinea,2146.0,GIN,Africa
+,Guinea-Bissau,761.0,GNB,Africa
+,Guyana,109.0,GUY,South America
+,Haiti,209.0,HTI,North America
+,Honduras,2100.0,HND,North America
+,Hungary,3284.0,HUN,Europe
+,Iceland,1801.0,ISL,Europe
+,India,70768.0,IND,Asia
+,Indonesia,14265.0,IDN,Asia
+,Iran,109286.0,IRN,Asia
+,Iraq,2818.0,IRQ,Asia
+,Ireland,23135.0,IRL,Europe
+,Israel,16506.0,ISR,Asia
+,Italy,219814.0,ITA,Europe
+,Ivory Coast,1730.0,CIV,Africa
+,Jamaica,505.0,JAM,North America
+,Japan,15847.0,JPN,Asia
+,Jordan,562.0,JOR,Asia
+,Kazakhstan,5207.0,KAZ,Asia
+,Kenya,700.0,KEN,Africa
+,Kuwait,9286.0,KWT,Asia
+,Kyrgyzstan,1016.0,KGZ,Asia
+,Laos,19.0,LAO,Asia
+,Latvia,946.0,LVA,Europe
+,Lebanon,859.0,LBN,Asia
+,Liberia,211.0,LBR,Africa
+,Libya,64.0,LBY,Africa
+,Liechtenstein,82.0,LIE,Europe
+,Lithuania,1485.0,LTU,Europe
+,Luxembourg,3888.0,LUX,Europe
+,Madagascar,186.0,MDG,Africa
+,Malawi,57.0,MWI,Africa
+,Malaysia,6726.0,MYS,Asia
+,Maldives,897.0,MDV,Asia
+,Mali,712.0,MLI,Africa
+,Malta,503.0,MLT,Europe
+,Mauritania,8.0,MRT,Africa
+,Mauritius,332.0,MUS,Africa
+,Mexico,36327.0,MEX,North America
+,Moldova,4995.0,MDA,Europe
+,Monaco,96.0,MCO,Europe
+,Mongolia,42.0,MNG,Asia
+,Montenegro,324.0,MNE,Europe
+,Morocco,6281.0,MAR,Africa
+,Mozambique,103.0,MOZ,Africa
+,Namibia,16.0,NAM,Africa
+,Nepal,134.0,NPL,Asia
+,Netherlands,42788.0,NLD,Europe
+,New Zealand,1497.0,NZL,Australia
+,Nicaragua,16.0,NIC,North America
+,Niger,832.0,NER,Africa
+,Nigeria,4641.0,NGA,Africa
+,North Macedonia,1664.0,MKD,Europe
+,Norway,8132.0,NOR,Europe
+,Oman,3573.0,OMN,Asia
+,Pakistan,32081.0,PAK,Asia
+,Panama,8616.0,PAN,North America
+,Papua New Guinea,8.0,PNG,Australia
+,Paraguay,724.0,PRY,South America
+,Peru,68822.0,PER,South America
+,Philippines,11086.0,PHL,Asia
+,Poland,16326.0,POL,Europe
+,Portugal,27679.0,PRT,Europe
+,Qatar,23623.0,QAT,Asia
+,Romania,15588.0,ROU,Europe
+,Russia,221344.0,RUS,Europe
+,Rwanda,285.0,RWA,Africa
+,Saint Kitts and Nevis,15.0,KNA,North America
+,Saint Lucia,18.0,LCA,North America
+,Saint Vincent and the Grenadines,17.0,VCT,North America
+,San Marino,628.0,SMR,Europe
+,Sao Tome and Principe,208.0,STP,Africa
+,Saudi Arabia,41014.0,SAU,Asia
+,Senegal,1886.0,SEN,Africa
+,Serbia,10176.0,SRB,Europe
+,Seychelles,11.0,SYC,Africa
+,Sierra Leone,338.0,SLE,Africa
+,Singapore,23822.0,SGP,Asia
+,Slovakia,1457.0,SVK,Europe
+,Slovenia,1460.0,SVN,Europe
+,Somalia,1089.0,SOM,Africa
+,South Africa,10652.0,ZAF,Africa
+,South Korea,10936.0,KOR,Asia
+,South Sudan,156.0,SSD,Africa
+,Spain,227436.0,ESP,Europe
+,Sri Lanka,869.0,LKA,Asia
+,Sudan,1526.0,SDN,Africa
+,Suriname,10.0,SUR,South America
+,Sweden,26670.0,SWE,Europe
+,Switzerland,30344.0,CHE,Europe
+,Syria,47.0,SYR,Asia
+,Taiwan,440.0,TWN,Asia
+,Tajikistan,661.0,TJK,Asia
+,Tanzania,509.0,TZA,Africa
+,Thailand,3015.0,THA,Asia
+,Togo,181.0,TGO,Africa
+,Trinidad and Tobago,116.0,TTO,North America
+,Tunisia,1032.0,TUN,Africa
+,Turkey,139771.0,TUR,Asia
+,United Kingdom,223060.0,GBR,Europe
+,Uganda,121.0,UGA,Africa
+,Ukraine,15648.0,UKR,Europe
+,United Arab Emirates,18878.0,ARE,Asia
+,Uruguay,711.0,URY,South America
+,Uzbekistan,2486.0,UZB,Asia
+,Venezuela,422.0,VEN,South America
+,Vietnam,288.0,VNM,Asia
+,Yemen,56.0,YEM,Asia
+,Zambia,267.0,ZMB,Africa
+,Zimbabwe,36.0,ZWE,Africa
+Alabama,United States of America,10164.0,USA,North America
+Alaska,United States of America,379.0,USA,North America
+Alberta,Canada,6300.0,CAN,North America
+Anguilla,United Kingdom,3.0,GBR,Europe
+Anhui,China,991.0,CHN,Asia
+Arizona,United States of America,11383.0,USA,North America
+Arkansas,United States of America,4043.0,USA,North America
+Aruba,Netherlands,101.0,NLD,Europe
+Australian Capital Territory,Australia,107.0,AUS,Australia
+Beijing,China,593.0,CHN,Asia
+Bermuda,United Kingdom,119.0,GBR,Europe
+"Bonaire, Sint Eustatius and Saba",Netherlands,6.0,NLD,Europe
+British Columbia,Canada,2353.0,CAN,North America
+British Virgin Islands,United Kingdom,7.0,GBR,Europe
+California,United States of America,69329.0,USA,North America
+Cayman Islands,United Kingdom,84.0,GBR,Europe
+Channel Islands,United Kingdom,546.0,GBR,Europe
+Chongqing,China,579.0,CHN,Asia
+Colorado,United States of America,19879.0,USA,North America
+Connecticut,United States of America,33765.0,USA,North America
+Curacao,Netherlands,16.0,NLD,Europe
+Delaware,United States of America,6565.0,USA,North America
+Diamond Princess cruise ship,Canada,1.0,CAN,North America
+Diamond Princess cruise ship,United States of America,49.0,USA,North America
+District of Columbia,United States of America,6389.0,USA,North America
+Falkland Islands (Malvinas),United Kingdom,13.0,GBR,Europe
+Faroe Islands,Denmark,187.0,DNK,Europe
+Florida,United States of America,40982.0,USA,North America
+French Guiana,France,144.0,FRA,Europe
+French Polynesia,France,60.0,FRA,Europe
+Fujian,China,356.0,CHN,Asia
+Gansu,China,139.0,CHN,Asia
+Georgia,United States of America,34002.0,USA,North America
+Gibraltar,United Kingdom,147.0,GBR,Europe
+Grand Princess,Canada,13.0,CAN,North America
+Grand Princess,United States of America,103.0,USA,North America
+Greenland,Denmark,11.0,DNK,Europe
+Guadeloupe,France,154.0,FRA,Europe
+Guam,United States of America,151.0,USA,North America
+Guangdong,China,1589.0,CHN,Asia
+Guangxi,China,254.0,CHN,Asia
+Guizhou,China,147.0,CHN,Asia
+Hainan,China,168.0,CHN,Asia
+Hawaii,United States of America,634.0,USA,North America
+Hebei,China,328.0,CHN,Asia
+Heilongjiang,China,945.0,CHN,Asia
+Henan,China,1276.0,CHN,Asia
+Hong Kong,Hong Kong,1047.0,HKG,Asia
+Hubei,China,68134.0,CHN,Asia
+Hunan,China,1019.0,CHN,Asia
+Idaho,United States of America,2260.0,USA,North America
+Illinois,United States of America,79007.0,USA,North America
+Indiana,United States of America,24627.0,USA,North America
+Inner Mongolia,China,209.0,CHN,Asia
+Iowa,United States of America,12373.0,USA,North America
+Isle of Man,United Kingdom,330.0,GBR,Europe
+Jiangsu,China,653.0,CHN,Asia
+Jiangxi,China,937.0,CHN,Asia
+Jilin,China,127.0,CHN,Asia
+Kansas,United States of America,7159.0,USA,North America
+Kentucky,United States of America,6677.0,USA,North America
+Liaoning,China,147.0,CHN,Asia
+Louisiana,United States of America,31815.0,USA,North America
+Macau,Macau,45.0,MAC,Asia
+Maine,United States of America,1462.0,USA,North America
+Manitoba,Canada,289.0,CAN,North America
+Martinique,France,187.0,FRA,Europe
+Maryland,United States of America,33373.0,USA,North America
+Massachusetts,United States of America,78462.0,USA,North America
+Mayotte,France,1023.0,FRA,Europe
+Michigan,United States of America,47552.0,USA,North America
+Minnesota,United States of America,11799.0,USA,North America
+Mississippi,United States of America,9674.0,USA,North America
+Missouri,United States of America,10157.0,USA,North America
+Montana,United States of America,459.0,USA,North America
+Montserrat,United Kingdom,11.0,GBR,Europe
+Nebraska,United States of America,8407.0,USA,North America
+Nevada,United States of America,6152.0,USA,North America
+New Brunswick,Canada,120.0,CAN,North America
+New Caledonia,France,18.0,FRA,Europe
+New Hampshire,United States of America,3160.0,USA,North America
+New Jersey,United States of America,140206.0,USA,North America
+New Mexico,United States of America,5069.0,USA,North America
+New South Wales,Australia,3053.0,AUS,Australia
+New York,United States of America,337055.0,USA,North America
+Newfoundland and Labrador,Canada,261.0,CAN,North America
+Ningxia,China,75.0,CHN,Asia
+North Carolina,United States of America,15274.0,USA,North America
+North Dakota,United States of America,1518.0,USA,North America
+Northern Mariana Islands,United States of America,19.0,USA,North America
+Northern Territory,Australia,29.0,AUS,Australia
+Northwest Territories,Canada,5.0,CAN,North America
+Nova Scotia,Canada,1019.0,CAN,North America
+Ohio,United States of America,24777.0,USA,North America
+Oklahoma,United States of America,4613.0,USA,North America
+Ontario,Canada,21817.0,CAN,North America
+Oregon,United States of America,3286.0,USA,North America
+Pennsylvania,United States of America,60459.0,USA,North America
+Prince Edward Island,Canada,27.0,CAN,North America
+Puerto Rico,United States of America,2256.0,USA,North America
+Qinghai,China,18.0,CHN,Asia
+Quebec,Canada,38480.0,CAN,North America
+Queensland,Australia,1051.0,AUS,Australia
+Recovered,Canada,0.0,CAN,North America
+Recovered,United States of America,0.0,USA,North America
+Reunion,France,436.0,FRA,Europe
+Rhode Island,United States of America,11450.0,USA,North America
+Saint Barthelemy,France,6.0,FRA,Europe
+Saint Pierre and Miquelon,France,1.0,FRA,Europe
+Saskatchewan,Canada,568.0,CAN,North America
+Shaanxi,China,308.0,CHN,Asia
+Shandong,China,788.0,CHN,Asia
+Shanghai,China,659.0,CHN,Asia
+Shanxi,China,198.0,CHN,Asia
+Sichuan,China,561.0,CHN,Asia
+Sint Maarten,Netherlands,76.0,NLD,Europe
+South Australia,Australia,439.0,AUS,Australia
+South Carolina,United States of America,7792.0,USA,North America
+South Dakota,United States of America,3614.0,USA,North America
+St Martin,France,39.0,FRA,Europe
+Tasmania,Australia,227.0,AUS,Australia
+Tennessee,United States of America,15544.0,USA,North America
+Texas,United States of America,40555.0,USA,North America
+Tianjin,China,191.0,CHN,Asia
+Tibet,China,1.0,CHN,Asia
+Turks and Caicos Islands,United Kingdom,12.0,GBR,Europe
+Utah,United States of America,6362.0,USA,North America
+Vermont,United States of America,926.0,USA,North America
+Victoria,Australia,1511.0,AUS,Australia
+Virgin Islands,United States of America,69.0,USA,North America
+Virginia,United States of America,25070.0,USA,North America
+Washington,United States of America,17122.0,USA,North America
+West Virginia,United States of America,1366.0,USA,North America
+Western Australia,Australia,553.0,AUS,Australia
+Wisconsin,United States of America,10418.0,USA,North America
+Wyoming,United States of America,669.0,USA,North America
+Xinjiang,China,76.0,CHN,Asia
+Yukon,Canada,11.0,CAN,North America
+Yunnan,China,185.0,CHN,Asia
+Zhejiang,China,1268.0,CHN,Asia

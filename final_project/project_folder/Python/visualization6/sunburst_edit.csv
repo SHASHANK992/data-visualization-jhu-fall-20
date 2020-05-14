@@ -1,0 +1,316 @@
+"Province.State","Country.Region","Continent","Confirmed"
+"NaN","Algeria","Africa",5891
+"NaN","Angola","Africa",45
+"NaN","Benin","Africa",319
+"NaN","Botswana","Africa",24
+"NaN","Burkina Faso","Africa",760
+"NaN","Burundi","Africa",15
+"NaN","Cabo Verde","Africa",260
+"NaN","Cameroon","Africa",2689
+"NaN","Central African Republic","Africa",143
+"NaN","Chad","Africa",322
+"NaN","Comoros","Africa",11
+"NaN","Congo","Africa",1024
+"NaN","Djibouti","Africa",1227
+"NaN","Egypt","Africa",9746
+"NaN","Equatorial Guinea","Africa",439
+"NaN","Eritrea","Africa",39
+"NaN","Eswatini","Africa",175
+"NaN","Ethiopia","Africa",250
+"NaN","Gabon","Africa",802
+"NaN","Gambia","Africa",22
+"NaN","Ghana","Africa",4700
+"NaN","Guinea","Africa",2146
+"NaN","Guinea-Bissau","Africa",761
+"NaN","Ivory Coast","Africa",1730
+"NaN","Kenya","Africa",700
+"NaN","Liberia","Africa",211
+"NaN","Libya","Africa",64
+"NaN","Madagascar","Africa",186
+"NaN","Malawi","Africa",57
+"NaN","Mali","Africa",712
+"NaN","Mauritania","Africa",8
+"NaN","Mauritius","Africa",332
+"NaN","Morocco","Africa",6281
+"NaN","Mozambique","Africa",103
+"NaN","Namibia","Africa",16
+"NaN","Niger","Africa",832
+"NaN","Nigeria","Africa",4641
+"NaN","Rwanda","Africa",285
+"NaN","Sao Tome and Principe","Africa",208
+"NaN","Senegal","Africa",1886
+"NaN","Seychelles","Africa",11
+"NaN","Sierra Leone","Africa",338
+"NaN","Somalia","Africa",1089
+"NaN","South Africa","Africa",10652
+"NaN","South Sudan","Africa",156
+"NaN","Sudan","Africa",1526
+"NaN","Tanzania","Africa",509
+"NaN","Togo","Africa",181
+"NaN","Tunisia","Africa",1032
+"NaN","Uganda","Africa",121
+"NaN","Zambia","Africa",267
+"NaN","Zimbabwe","Africa",36
+"NaN","Afghanistan","Asia",4687
+"NaN","Armenia","Asia",3392
+"NaN","Azerbaijan","Asia",2589
+"NaN","Bahrain","Asia",5236
+"NaN","Bangladesh","Asia",15691
+"NaN","Bhutan","Asia",11
+"NaN","Brunei","Asia",141
+"NaN","Cambodia","Asia",122
+"Anhui","China","Asia",991
+"Beijing","China","Asia",593
+"Chongqing","China","Asia",579
+"Fujian","China","Asia",356
+"Gansu","China","Asia",139
+"Guangdong","China","Asia",1589
+"Guangxi","China","Asia",254
+"Guizhou","China","Asia",147
+"Hainan","China","Asia",168
+"Hebei","China","Asia",328
+"Heilongjiang","China","Asia",945
+"Henan","China","Asia",1276
+"Hubei","China","Asia",68134
+"Hunan","China","Asia",1019
+"Inner Mongolia","China","Asia",209
+"Jiangsu","China","Asia",653
+"Jiangxi","China","Asia",937
+"Jilin","China","Asia",127
+"Liaoning","China","Asia",147
+"Ningxia","China","Asia",75
+"Qinghai","China","Asia",18
+"Shaanxi","China","Asia",308
+"Shandong","China","Asia",788
+"Shanghai","China","Asia",659
+"Shanxi","China","Asia",198
+"Sichuan","China","Asia",561
+"Tianjin","China","Asia",191
+"Tibet","China","Asia",1
+"Xinjiang","China","Asia",76
+"Yunnan","China","Asia",185
+"Zhejiang","China","Asia",1268
+"NaN","Cyprus","Asia",901
+"NaN","Georgia","Asia",638
+"NaN","Hong Kong","Asia",1047
+"NaN","India","Asia",70768
+"NaN","Indonesia","Asia",14265
+"NaN","Iran","Asia",109286
+"NaN","Iraq","Asia",2818
+"NaN","Israel","Asia",16506
+"NaN","Japan","Asia",15847
+"NaN","Jordan","Asia",562
+"NaN","Kazakhstan","Asia",5207
+"NaN","Kuwait","Asia",9286
+"NaN","Kyrgyzstan","Asia",1016
+"NaN","Laos","Asia",19
+"NaN","Lebanon","Asia",859
+"NaN","Macau","Asia",45
+"NaN","Malaysia","Asia",6726
+"NaN","Maldives","Asia",897
+"NaN","Mongolia","Asia",42
+"NaN","Myanmar","Asia",180
+"NaN","Nepal","Asia",134
+"NaN","Oman","Asia",3573
+"NaN","Pakistan","Asia",32081
+"NaN","Philippines","Asia",11086
+"NaN","Qatar","Asia",23623
+"NaN","Saudi Arabia","Asia",41014
+"NaN","Singapore","Asia",23822
+"NaN","South Korea","Asia",10936
+"NaN","Sri Lanka","Asia",869
+"NaN","Syria","Asia",47
+"NaN","Taiwan","Asia",440
+"NaN","Tajikistan","Asia",661
+"NaN","Thailand","Asia",3015
+"NaN","Turkey","Asia",139771
+"NaN","United Arab Emirates","Asia",18878
+"NaN","Uzbekistan","Asia",2486
+"NaN","Vietnam","Asia",288
+"NaN","Yemen","Asia",56
+"Australian Capital Territory","Australia","Australia",107
+"New South Wales","Australia","Australia",3053
+"Northern Territory","Australia","Australia",29
+"Queensland","Australia","Australia",1051
+"South Australia","Australia","Australia",439
+"Tasmania","Australia","Australia",227
+"Victoria","Australia","Australia",1511
+"Western Australia","Australia","Australia",553
+"NaN","Fiji","Australia",18
+"NaN","New Zealand","Australia",1497
+"NaN","Papua New Guinea","Australia",8
+"NaN","Albania","Europe",872
+"NaN","Andorra","Europe",755
+"NaN","Austria","Europe",15882
+"NaN","Belarus","Europe",23906
+"NaN","Belgium","Europe",53449
+"NaN","Bosnia and Herzegovina","Europe",2141
+"NaN","Bulgaria","Europe",1990
+"NaN","Croatia","Europe",2196
+"NaN","Czech Republic","Europe",8176
+"NaN","Denmark","Europe",10513
+"Faroe Islands","Denmark","Europe",187
+"Greenland","Denmark","Europe",11
+"NaN","Estonia","Europe",1741
+"NaN","Finland","Europe",5984
+"NaN","France","Europe",175479
+"French Guiana","France","Europe",144
+"French Polynesia","France","Europe",60
+"Guadeloupe","France","Europe",154
+"Martinique","France","Europe",187
+"Mayotte","France","Europe",1023
+"New Caledonia","France","Europe",18
+"Reunion","France","Europe",436
+"Saint Barthelemy","France","Europe",6
+"Saint Pierre and Miquelon","France","Europe",1
+"St Martin","France","Europe",39
+"NaN","Germany","Europe",172576
+"NaN","Greece","Europe",2726
+"NaN","Hungary","Europe",3284
+"NaN","Iceland","Europe",1801
+"NaN","Ireland","Europe",23135
+"NaN","Italy","Europe",219814
+"NaN","Latvia","Europe",946
+"NaN","Liechtenstein","Europe",82
+"NaN","Lithuania","Europe",1485
+"NaN","Luxembourg","Europe",3888
+"NaN","Malta","Europe",503
+"NaN","Moldova","Europe",4995
+"NaN","Monaco","Europe",96
+"NaN","Montenegro","Europe",324
+"Aruba","Netherlands","Europe",101
+"Bonaire, Sint Eustatius and Saba","Netherlands","Europe",6
+"Curacao","Netherlands","Europe",16
+"NaN","Netherlands","Europe",42788
+"Sint Maarten","Netherlands","Europe",76
+"NaN","North Macedonia","Europe",1664
+"NaN","Norway","Europe",8132
+"NaN","Poland","Europe",16326
+"NaN","Portugal","Europe",27679
+"NaN","Romania","Europe",15588
+"NaN","Russia","Europe",221344
+"NaN","San Marino","Europe",628
+"NaN","Serbia","Europe",10176
+"NaN","Slovakia","Europe",1457
+"NaN","Slovenia","Europe",1460
+"NaN","Spain","Europe",227436
+"NaN","Sweden","Europe",26670
+"NaN","Switzerland","Europe",30344
+"NaN","Ukraine","Europe",15648
+"Anguilla","United Kingdom","Europe",3
+"Bermuda","United Kingdom","Europe",119
+"British Virgin Islands","United Kingdom","Europe",7
+"Cayman Islands","United Kingdom","Europe",84
+"Channel Islands","United Kingdom","Europe",546
+"Falkland Islands (Malvinas)","United Kingdom","Europe",13
+"Gibraltar","United Kingdom","Europe",147
+"Isle of Man","United Kingdom","Europe",330
+"Montserrat","United Kingdom","Europe",11
+"Turks and Caicos Islands","United Kingdom","Europe",12
+"NaN","United Kingdom","Europe",223060
+"NaN","Antigua and Barbuda","North America",25
+"NaN","Bahamas","North America",93
+"NaN","Barbados","North America",84
+"NaN","Belize","North America",18
+"Alberta","Canada","North America",6300
+"British Columbia","Canada","North America",2353
+"Diamond Princess cruise ship","Canada","North America",1
+"Grand Princess","Canada","North America",13
+"Manitoba","Canada","North America",289
+"New Brunswick","Canada","North America",120
+"Newfoundland and Labrador","Canada","North America",261
+"Northwest Territories","Canada","North America",5
+"Nova Scotia","Canada","North America",1019
+"Ontario","Canada","North America",21817
+"Prince Edward Island","Canada","North America",27
+"Quebec","Canada","North America",38480
+"Recovered","Canada","North America",0
+"Saskatchewan","Canada","North America",568
+"Yukon","Canada","North America",11
+"NaN","Costa Rica","North America",801
+"NaN","Cuba","North America",1783
+"NaN","Dominica","North America",16
+"NaN","Dominican Republic","North America",10634
+"NaN","El Salvador","North America",958
+"NaN","Grenada","North America",21
+"NaN","Guatemala","North America",1114
+"NaN","Haiti","North America",209
+"NaN","Honduras","North America",2100
+"NaN","Jamaica","North America",505
+"NaN","Mexico","North America",36327
+"NaN","Nicaragua","North America",16
+"NaN","Panama","North America",8616
+"NaN","Saint Kitts and Nevis","North America",15
+"NaN","Saint Lucia","North America",18
+"NaN","Saint Vincent and the Grenadines","North America",17
+"NaN","Trinidad and Tobago","North America",116
+"Alabama","United States of America","North America",10164
+"Alaska","United States of America","North America",379
+"Arizona","United States of America","North America",11383
+"Arkansas","United States of America","North America",4043
+"California","United States of America","North America",69329
+"Colorado","United States of America","North America",19879
+"Connecticut","United States of America","North America",33765
+"Delaware","United States of America","North America",6565
+"Diamond Princess cruise ship","United States of America","North America",49
+"District of Columbia","United States of America","North America",6389
+"Florida","United States of America","North America",40982
+"Georgia","United States of America","North America",34002
+"Grand Princess","United States of America","North America",103
+"Guam","United States of America","North America",151
+"Hawaii","United States of America","North America",634
+"Idaho","United States of America","North America",2260
+"Illinois","United States of America","North America",79007
+"Indiana","United States of America","North America",24627
+"Iowa","United States of America","North America",12373
+"Kansas","United States of America","North America",7159
+"Kentucky","United States of America","North America",6677
+"Louisiana","United States of America","North America",31815
+"Maine","United States of America","North America",1462
+"Maryland","United States of America","North America",33373
+"Massachusetts","United States of America","North America",78462
+"Michigan","United States of America","North America",47552
+"Minnesota","United States of America","North America",11799
+"Mississippi","United States of America","North America",9674
+"Missouri","United States of America","North America",10157
+"Montana","United States of America","North America",459
+"Nebraska","United States of America","North America",8407
+"Nevada","United States of America","North America",6152
+"New Hampshire","United States of America","North America",3160
+"New Jersey","United States of America","North America",140206
+"New Mexico","United States of America","North America",5069
+"New York","United States of America","North America",337055
+"North Carolina","United States of America","North America",15274
+"North Dakota","United States of America","North America",1518
+"Northern Mariana Islands","United States of America","North America",19
+"Ohio","United States of America","North America",24777
+"Oklahoma","United States of America","North America",4613
+"Oregon","United States of America","North America",3286
+"Pennsylvania","United States of America","North America",60459
+"Puerto Rico","United States of America","North America",2256
+"Recovered","United States of America","North America",0
+"Rhode Island","United States of America","North America",11450
+"South Carolina","United States of America","North America",7792
+"South Dakota","United States of America","North America",3614
+"Tennessee","United States of America","North America",15544
+"Texas","United States of America","North America",40555
+"Utah","United States of America","North America",6362
+"Vermont","United States of America","North America",926
+"Virgin Islands","United States of America","North America",69
+"Virginia","United States of America","North America",25070
+"Washington","United States of America","North America",17122
+"West Virginia","United States of America","North America",1366
+"Wisconsin","United States of America","North America",10418
+"Wyoming","United States of America","North America",669
+"NaN","Argentina","South America",6278
+"NaN","Bolivia","South America",2831
+"NaN","Brazil","South America",169594
+"NaN","Chile","South America",30063
+"NaN","Colombia","South America",11613
+"NaN","Ecuador","South America",29509
+"NaN","Guyana","South America",109
+"NaN","Paraguay","South America",724
+"NaN","Peru","South America",68822
+"NaN","Suriname","South America",10
+"NaN","Uruguay","South America",711
+"NaN","Venezuela","South America",422

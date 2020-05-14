@@ -1,0 +1,208 @@
+library(ggmap); library(stringr)
+
+housing <- read.csv(file = 'housing.csv') # Read data
+
+# check NA's
+sum(is.na(housing)) # 207
+# Reference: https://stackoverflow.com/questions/4862178/remove-rows-with-all-or-some-nas-missing-values-in-data-frame
+housing <- housing[complete.cases(housing),]
+rownames(housing) <- NULL
+
+# Create class variable
+low_to_high_inc <- housing[order(housing$median_income),]
+bottom_18 <- round(nrow(housing) * 0.18)
+top_5 <- round(nrow(housing) * 0.05)
+lower_class <- low_to_high_inc[1:bottom_18,]
+lower_class$class <- 'lower'
+upper_class <- low_to_high_inc[(nrow(housing) - 1 - top_5):nrow(housing),]
+upper_class$class <- 'upper'
+middle_class <- low_to_high_inc[(bottom_18 + 1):(nrow(housing) - 2 - top_5),]
+middle_class$class <- 'middle'
+housing <- rbind(lower_class, middle_class, upper_class)
+rownames(housing) <- NULL
+barplot(prop.table(table(housing$class))[order(prop.table(table(housing$class)))], main = 'Percentage Histogram of Class')
+
+# Reference: https://stackoverflow.com/questions/29921605/r-how-to-convert-latitude-and-longitude-coordinates-into-an-address-human-rea
+revgeocode(c(housing[2,'longitude'], housing[2,'latitude']), output = 'all')$
+address <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing$longitude, housing$latitude)
+
+housing1 <- housing[1:1000,]
+housing2 <- housing[1001:2000,]
+housing3 <- housing[2001:3000,]
+housing4 <- housing[3001:4000,]
+housing5 <- housing[4001:5000,]
+housing6 <- housing[5001:6000,]
+housing7 <- housing[6001:7000,]
+housing8 <- housing[7001:8000,]
+housing9 <- housing[8001:9000,]
+housing10 <- housing[9001:10000,]
+housing11 <- housing[10001:11000,]
+housing12 <- housing[11001:12000,]
+housing13 <- housing[12001:13000,]
+housing14 <- housing[13001:14000,]
+housing15 <- housing[14001:15000,]
+housing16 <- housing[15001:16000,]
+housing17 <- housing[16001:17000,]
+housing18 <- housing[17001:18000,]
+housing19 <- housing[18001:19000,]
+housing20 <- housing[19001:20000,]
+housing21 <- housing[20001:20433,]
+
+address1 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing1$longitude, housing1$latitude)
+address2 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing2$longitude, housing2$latitude)
+address3 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing3$longitude, housing3$latitude)
+address4 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing4$longitude, housing4$latitude)
+address5 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing5$longitude, housing5$latitude)
+address6 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing6$longitude, housing6$latitude)
+address7 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing7$longitude, housing7$latitude)
+address8 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing8$longitude, housing8$latitude)
+address9 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing9$longitude, housing9$latitude)
+address10 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing10$longitude, housing10$latitude)
+address11 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing11$longitude, housing11$latitude)
+address12 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing12$longitude, housing12$latitude)
+address13 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing13$longitude, housing13$latitude)
+address14 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing14$longitude, housing14$latitude)
+address15 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing15$longitude, housing15$latitude)
+address16 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing16$longitude, housing16$latitude)
+address17 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing17$longitude, housing17$latitude)
+address18 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing18$longitude, housing18$latitude)
+address19 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing19$longitude, housing19$latitude)
+address20 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing20$longitude, housing20$latitude)
+address21 <- mapply(FUN = function(lon, lat)
+  revgeocode(c(lon, lat)), housing21$longitude, housing21$latitude)
+
+address <- c(address1, address2, address3, address4, address5,
+      address6, address7, address8, address9, address10,
+      address11, address12, address13, address14, address15,
+      address16, address17, address18, address19, address20,
+      address21)
+
+# Reference: https://stackoverflow.com/questions/45289000/split-a-address-string-into-city-state-and-address-in-r
+address_split <- str_match(address,"(.+), (.+), (.+) (.+), (.+)")[ ,-1]
+cities <- address_split[,2]
+housing$city <- cities
+top10_city <- sort(table(housing$city), decreasing = TRUE)[1:10]
+top10_city <- housing[housing$city %in% names(top10_city),'city']
+table(top10_city)
+other_city <- housing[!(housing$city %in% unique(top10_city)),'city']
+length(other_city)
+# city_freq <- c(top10_city, rep('other', length(other_city)))
+barplot(sort(prop.table(table(top10_city))))
+
+# Reference: https://en.wikipedia.org/wiki/San_Francisco_Bay_Area
+sf_bay_area <- c('Alameda', 'Albany', 'American Canyon', 'Antioch', 'Atherton',
+                 'Belmont', 'Belvedere', 'Benicia', 'Berkeley', 'Brentwood',
+                 'Brisbane', 'Burlingame', 'Calistoga', 'Campbell', 'Clayton',
+                 'Cloverdale', 'Colma', 'Concord', 'Corte Madera', 'Cotati',
+                 'Cupertino', 'Daly City', 'Danville', 'Dixon', 'Dublin',
+                 'East Palo Alto', 'El Cerrito', 'Emeryville', 'Fairfax', 'Fairfield',
+                 'Foster City', 'Fremont', 'Gilroy', 'Half Moon Bay', 'Hayward',
+                 'Healdsburg', 'Hercules', 'Hillsborough', 'Lafayette', 'Larkspur',
+                 'Livermore', 'Los Altos', 'Los Altos Hills', 'Los Gatos', 'Martinez',
+                 'Menlo Park', 'Mill Valley', 'Millbrae', 'Milpitas', 'Monte Sereno',
+                 'Moraga', 'Morgan Hill', 'Mountain View', 'Napa', 'Newark',
+                 'Novato', 'Oakland', 'Oakley', 'Orinda', 'Pacifica',
+                 'Palo Alto', 'Petaluma', 'Piedmont', 'Pinole', 'Pittsburg',
+                 'Pleasant Hill', 'Pleasanton', 'Portola Valley', 'Redwood', 'Richmond',
+                 'Rio Vista', 'Rohnert Park', 'Ross', 'St. Helena', 'San Anselmo',
+                 'San Bruno', 'San Carlos', 'San Francisco', 'San Jose', 'San Leandro',
+                 'San Mateo', 'San Pablo', 'San Rafael', 'San Ramon', 'Santa Clara',
+                 'Santa Rosa', 'Saratoga', 'Sausalito', 'Sebastopol', 'Sonoma',
+                 'South San Francisco', 'Suisun City', 'Sunnyvale', 'Tiburon', 'Union City',
+                 'Vacaville', 'Vallejo', 'Walnut Creek', 'Windsor', 'Woodside',
+                 'Yountville')
+
+# Reference: https://support.crunchbase.com/hc/en-us/articles/360009895834-What-cities-are-in-the-Greater-Los-Angeles-region-
+greater_la_area <- c('Los Angeles', 'Santa Monica', 'Irvine', 'Beverly Hills', 'Lucerne Valley',
+                     'Pasadena', 'Newport Beach', 'West Hollywood', 'Culver City', 'El Segundo',
+                     'Venice', 'Torrance', 'Costa Mesa', 'Burbank', 'Santa Ana',
+                     'Aliso Viejo', 'Woodland Hills', 'Long Beach', 'Anaheim', 'Westlake Village',
+                     'Glendale', 'Manhattan Beach', 'Marina Del Rey', 'Sherman Oaks', 'Encino',
+                     'Huntington Beach', 'Orange', 'Van Nuys', 'Lake Forest', 'San Clemente',
+                     'Chatsworth', 'Riverside', 'Valencia', 'Calabasas', 'Walnut',
+                     'Agoura Hills', 'Redondo Beach', 'Tustin', 'Laguna Hills', 'Thousand Oaks',
+                     'Temecula', 'Fountain Valley', 'Mission Viejo', 'Malibu', 'Studio City',
+                     'North Hollywood', 'Laguna Beach', 'Ventura', 'Fullerton', 'Hermosa Beach',
+                     'Murrieta', 'Corona', 'Pomona', 'San Juan Capistrano', 'Rancho Santa Margarita',
+                     'Rancho Cucamonga', 'Monrovia', 'Gardena', 'Simi Valley', 'Camarillo',
+                     'Oxnard', 'Brea', 'Garden Grove', 'Palm Springs', 'Whittier',
+                     'Monterey Park', 'Cerritos', 'Palm Desert', 'City Of Industry', 'San Bernardino',
+                     'Tarzana', 'Buena Park', 'Northridge', 'Pacific Palisades', 'La Canada Flintridge',
+                     'Canoga Park', 'Ontario', 'Diamond Bar', 'West Covina', 'Laguna Niguel',
+                     'Foothill Ranch', 'Playa Vista', 'La Mirada', 'Santa Clarita', 'Claremont',
+                     'Alhambra', 'Lancaster', 'Yorba Linda', 'Redlands', 'Westminster',
+                     'Toluca Lake', 'Hawthorne', 'Carson', 'Ladera Ranch', 'Newbury Park',
+                     'Rancho Palos Verdes', 'Sylmar', 'South Pasadena', 'Inglewood', 'Arcadia',
+                     'Azusa', 'Glendora', 'Moreno Valley', 'Moorpark', 'Cypress',
+                     'Dana Point', 'El Monte', 'Reseda', 'Altadena', 'Palmdale',
+                     'Santa Fe Springs', 'Chino', 'San Dimas', 'Panorama City', 'Rancho Dominguez',
+                     'Commerce', 'Fontana', 'Seal Beach', 'Granada Hills', 'Sun Valley',
+                     'Playa Del Rey', 'Canyon Country', 'Rosemead', 'Universal City', 'Century City',
+                     'Covina', 'Upland', 'Chino Hills', 'Victorville', 'Signal Hill',
+                     'Tujunga', 'West Hills', 'Artesia', 'Placentia', 'Palos Verdes Estates',
+                     'Lakewood', 'San Fernando', 'Norwalk', 'Lomita', 'South El Monte',
+                     'Compton', 'Temple City', 'Baldwin Park', 'West Los Angeles', 'Valley Village',
+                     'San Pedro', 'Bellflower', 'La Puente', 'La Crescenta', 'Huntington Park',
+                     'Montebello', 'Rowland Heights', 'Colton', 'Wildomar', 'Lake Elsinore',
+                     'Yucca Valley', 'La Habra', 'Sunland', 'Mission Hills', 'South Gate',
+                     'Downey', 'Rolling Hills Estates', 'Wilmington', 'San Marino', 'San Gabriel',
+                     'Lynwood', 'Barstow', 'Yucaipa', 'Norco', 'Newport Coast',
+                     'Cathedral City', 'La Quinta', 'Desert Hot Springs', 'Rancho Mirage', 'Ojai',
+                     'Pacoima', 'North Hills', 'Oak Park', 'Stanton', 'La Palma',
+                     'Maywood', 'Duarte', 'Paramount', 'Pico Rivera', 'Stevenson Ranch',
+                     'Menifee', 'Hesperia', 'Montclair', 'Loma Linda', 'Apple Valley',
+                     'Grand Terrace', 'Beaumont', 'Trabuco Canyon', 'Laguna Woods', 'Indio',
+                     'Hemet', 'San Jacinto', 'Santa Paula', 'Acton', 'Harbor City',
+                     'Joshua Tree', 'Mountain Pass', 'Villa Park', 'Blythe', 'Adelanto',
+                     'Bell Gardens', 'Newhall', 'Montrose', 'Palos Verdes Peninsula', 'Topanga',
+                     'Lawndale', 'Highland', 'Mira Loma', 'Lake Arrowhead', 'La Verne',
+                     'Sun City', 'Hacienda Heights', 'Rialto', 'Los Alamitos', 'Idyllwild',
+                     'Indian Wells', 'Coachella', 'Banning', 'Midway City', 'Sierra Madre',
+                     'Thermal', 'Port Hueneme Cbc Base', 'Sunset Beach', 'Silverado', 'Avalon',
+                     'Castaic', 'East Los Angeles', 'Bell', 'Bloomington', 'Bryn Mawr',
+                     'Helendale', 'Baker', 'Mentone', 'Big Bear City', 'Patton',
+                     'Guasti', 'Big Bear Lake', 'Perris', 'Calimesa', 'Hawaiian Gardens',
+                     'Capistrano Beach', 'Twentynine Palms', 'Thousand Palms', 'Cabazon', 'Fillmore',
+                     'Port Hueneme', 'Ludlow', 'Running Springs', 'Lytle Creek', 'North Long Beach',
+                     'Oro Grande', 'Nuevo', 'Landers', 'Phelan', 'Parker Dam',
+                     'Winnetka', 'Rimforest', 'Newberry Springs', 'Verdugo City', 'Pioneertown',
+                     'Crestline', 'Blue Jay', 'March Air Reserve Base', 'Valyermo', 'Morongo Valley',
+                     'Trona', 'Charter Oak', 'Somis', 'Mount Wilson', 'Point Mugu Nawc',
+                     'Forest Falls', 'Littlerock', 'Anza', 'Mecca', 'Winchester',
+                     'Amboy', 'Crest Park', 'Wrightwood', 'Piru', 'Atwood',
+                     'Cedar Glen', 'El Toro', 'Fort Irwin', 'Angelus Oaks', 'Skyforest',
+                     'Vidal', 'Cedarpines Park', 'Rolling Hills', 'Oak View', 'Mountain Center',
+                     'Earp', 'Hinkley', 'Surfside', 'Fawnskin', 'Yermo',
+                     'Aguanga', 'North Palm Springs', 'Daggett', 'Green Valley Lake', 'Pearblossom',
+                     'Twin Peaks', 'Sugarloaf', 'Llano', 'Nipton', 'East Irvine',
+                     'Desert Center', 'Lake Hughes', 'Brandeis', 'Homeland', 'Needles')
+
+# Reference: https://community.rstudio.com/t/adding-column-based-on-other-column/16114/2
+housing$sfla <- ifelse(housing$city %in% sf_bay_area, 'SF',
+                       ifelse(housing$city %in% greater_la_area, 'LA','other'))
+
+housing <- housing[complete.cases(housing),]
+table(housing$sfla) / sum(table(housing$sfla))
+
+write.csv(x = housing, file = 'C:\\Users\\qizhe\\Desktop\\JHU\\data_vis\\project_3\\housing_update.csv', row.names = FALSE)

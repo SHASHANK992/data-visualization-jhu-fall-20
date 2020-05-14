@@ -1,0 +1,102 @@
+Jared Yu
+Data Visualization
+Final Project
+
+### How to run the code
+The zip folder contains a folder named Python and a folder named R (along with
+this Code_documentation.txt). Additionally, included is the final paper called,
+'yu_final_paper.pdf.' There are a total of six visualizations in the
+project. Below will be shown how each of the visualizations are created.
+
+# Visualization 1
+Located in the Python folder is another folder called 'visualization1.' Inside the
+folder are four files. The 'screenshot_visualization1.jpg' is a screenshot of the
+visualization after it's generated. The file 'visualization1.html' contains the
+visualization as a complete object that can be opened and viewed. The dataset for
+this visualization is contained within 'time_series_covid_19_confirmed.csv.' The
+code that runs this visualization is located in 'visualization1.ipynb' which is a
+jupyter notebook. The code should run fine from top to bottom.
+
+# Visualization 2
+Located in the Python folder is another folder called 'visualization2.' Inside the
+folder are four files. The 'screenshot_visualization2.jpg' is a screenshot of the
+visualization after it's generated. The file 'visualization2.html' contains the
+visualization as a complete object that can be opened and viewed. The dataset for
+this visualization is contained within 'time_series_covid_19_confirmed.csv.' The
+code that runs this visualization is located in 'visualization2.ipynb' which is a
+jupyter notebook. The code should run fine from top to bottom.
+
+As a note, this jupyter notebook contains code which should generate two additional
+datasets. The datasets are called 'python_melt.csv' and 'lag_data.csv.' Both are used
+in later visualizations. However, to use those later visualizations it's not required
+to move them there since those folders already contain copies of these datasets.
+
+# Visualization 3
+Located in the Python folder is another folder called 'visualization3.' Inside the
+folder are four files. The 'screenshot_visualization3.jpg' is a screenshot of the
+visualization after it's generated. The file 'visualization3.html' contains the
+visualization as a complete object that can be opened and viewed. The dataset for
+this visualization is contained within 'time_series_covid_19_confirmed.csv.' The
+code that runs this visualization is located in 'visualization3.ipynb' which is a
+jupyter notebook. The code should run fine from top to bottom.
+
+# Visualization 4
+Located in the R folder is another folder called 'visualization4.' Inside the
+folder are four files. The 'screenshot_visualization4.jpg' is a screenshot of the
+visualization after it's generated. The datasets for this visualization are both
+contained within the folder and are called 'lag_data.csv' and 'python_melt.csv.' The
+code that runs this visualization is located in 'visualization4.R' which is an
+R script. The code should run fine from top to bottom.
+
+As a note, the screenshot is of the main visualization, there's a minor graph that is
+used in the report as an example for comparing the graph of China's current data and
+a subset that looks only at the first 20 days which is not included in the screenshot.
+
+# Visualization 5
+Located in the R folder is another folder called 'visualization5.' Inside the
+folder are four files. The 'screenshot_visualization5.jpg' is a screenshot of the
+visualization after it's generated. The datasets for this visualization are both
+contained within the folder and are called 'lag_data.csv' and 'python_melt.csv.' The
+code that runs this visualization is located in 'visualization5.R' which is an
+R script. The code should run fine from top to bottom.
+
+As a note, the screenshot is of the main visualization, there are three minor graphs
+that are used in the report as an example for comparing the graph of China's growth
+rate, the curvy growth rate countries, and the straight growth rate countries. Screenshots
+of these plots are in the main report and are not included as separate screenshots.
+
+# Visualization 6
+The steps for this visualization are slightly more complicated. The order of how the
+visualizations could be recreated is to first go to the Python folder and enter
+the folder called 'visualization6.' Within this folder are four files. The data files
+are 'covid_19_data.csv' and 'sunburst_edit.csv.' The screenshot of the visualization
+working is also within this folder and is called 'screenshot_visualization6.jpg.' The
+jupyter notebook with the code is called 'visualization6.ipynb.'
+
+Opening the file, 'visualization6.ipynb,' the code will require 'covid_19_data.csv.' This
+will then generate a new data file called 'sunburst.csv.' The file 'sunburst.csv' is already
+located in the directory /R/visualization6/. This other directory includes two files, the
+'sunburst.csv' file that was just generated and an R script called 'visualization6.R.' This
+R script is used to do some data wrangling to help aggregate some rows using RStudio. The
+task itself was troublesome in Python so it was done in R quickly. After running the R
+script, it will generate a new file called, 'sunburst_edit.csv.' This file is included
+in /Python/visualization6/.
+
+Going back to 'visualization6.ipynb,' the jupyter notebook will run the data file called
+'sunburst_edit.csv.' This generates the last visualization which can be opened in
+'visualization6.html.' The code should run fine from top to bottom.
+
+NOTE: Running the jupyter notebooks will generate an additional folder containing
+checkpoint files.
+
+
+
+
+
+
+
+
+
+
+
+
